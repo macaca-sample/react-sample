@@ -50,8 +50,8 @@
   "scripts": {
     "start": "webpack-dev-server --host 0.0.0.0 --port 8008",
     "build": "webpack -p --progress --colors",
+    "build:test": "webpack -p --progress --colors --config webpack.config.test.js",
     "test": "torch --renderer test/*.test.js",
-    "test:build": "webpack -p --progress --colors --config webpack.config.test.js",
     "test:debug": "torch --renderer --interactive --watch --notify-on-fail --debug test/*.test.js"
   },
   "license": "MIT"

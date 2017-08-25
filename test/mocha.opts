@@ -1,5 +1,4 @@
 --reporter spec
---preload https://os.alipayobjects.com/rmsportal/lvEQQbNgHsIxVfXLkmuX.js
 --preload https://as.alipayobjects.com/g/component/??react/15.3.2/react.min.js
 --preload https://as.alipayobjects.com/g/component/??react/15.3.2/react-dom.min.js
 --preload ./test/dist/test-helper.css
