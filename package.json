@@ -48,8 +48,9 @@
     "webpack-dev-server": "^1.16.2"
   },
   "scripts": {
-    "start": "webpack-dev-server --host 0.0.0.0 --port 8000",
+    "start": "webpack-dev-server --host 0.0.0.0 --port 8008",
     "build": "webpack -p --progress --colors",
+    "build:test": "webpack -p --progress --colors --config webpack.config.test.js",
     "test": "torch --renderer test/*.test.js",
     "test:debug": "torch --renderer --interactive --watch --notify-on-fail --debug test/*.test.js"
   },

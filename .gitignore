@@ -6,9 +6,9 @@ Thumbs.db
 coverage/
 .project
 build/
-macaca-logs/
 *.sw*
 *.un~
 reports/
 screenshots/
 dist/
+test/dist/
