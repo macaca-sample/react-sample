@@ -35,7 +35,7 @@ describe('test/file1.test.js', function() {
       const reportspath = path.join(__dirname, '..', 'reports');
       setTimeout(() => {
         Macaca.screenshot({
-          directory: currentScreen,
+          directory: reportspath,
           height: 600,
           width: 375
         }, (e) => {
@@ -66,7 +66,7 @@ describe('test/file1.test.js', function() {
       const reportspath = path.join(__dirname, '..', 'reports');
       setTimeout(() => {
         Macaca.screenshot({
-          directory: currentScreen,
+          directory: reportspath,
           height: 600,
           width: 375
         }, (e) => {
