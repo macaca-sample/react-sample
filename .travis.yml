@@ -11,4 +11,5 @@ install:
   - Xvfb :99 -screen 0 1366x768x24 > /dev/null 2>&1 &
 script:
   - npm i
+  - npm run build
   - npm run test
