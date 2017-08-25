@@ -31,15 +31,16 @@ describe('test/file2.test.js', function() {
 
     afterEach(function(done) {
       const that = this;
-      const filepath = `${cwd}/screenshots/${that.currentTest.title}.png`;
-      const reportspath = path.join(__dirname, '..', 'reports');
+      console.log(cwd)
+      const filepath = path.join(cwd, 'screenshots', `${that.currentTest.title}.png`)
+      const reportspath = path.join(cwd, 'reports');
       setTimeout(() => {
         Macaca.screenshot({
-          directory: `${cwd}/screenshots/${that.currentTest.title}.png`,
+          directory: filepath,
           height: 600,
           width: 375
         }, (e) => {
-          appendToContext(that, `${cwd}/screenshots/${that.currentTest.title}.png`);
+          appendToContext(that, filepath);
           done();
         });
       }, 1500);
@@ -58,15 +59,15 @@ describe('test/file2.test.js', function() {
 
     afterEach(function(done) {
       const that = this;
-      const filepath = `${cwd}/screenshots/${that.currentTest.title}.png`;
-      const reportspath = path.join(__dirname, '..', 'reports');
+      const filepath = path.join(cwd, 'screenshots', `${that.currentTest.title}.png`)
+      const reportspath = path.join(cwd, 'reports');
       setTimeout(() => {
         Macaca.screenshot({
-          directory: `${cwd}/screenshots/${that.currentTest.title}.png`,
+          directory: filepath,
           height: 600,
           width: 375
         }, (e) => {
-          appendToContext(that, `${cwd}/screenshots/${that.currentTest.title}.png`);
+          appendToContext(that, filepath);
           done();
         });
       }, 1500);
