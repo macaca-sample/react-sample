@@ -1,0 +1,3 @@
+--reporter spec
+--preload ./dist/index.css
+--preload ./dist/index.js

@@ -4,11 +4,10 @@ node_modules
 .travis.yml
 .drone.yml
 examples/
-.jshintrc
-.jshintignore
 coverage/
 screenshot/
 *.sw*
 *.un~
 reports/
 screenshots/
+dist/

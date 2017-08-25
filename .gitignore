@@ -11,3 +11,4 @@ macaca-logs/
 *.un~
 reports/
 screenshots/
+dist/

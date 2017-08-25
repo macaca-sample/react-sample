@@ -7,6 +7,7 @@
 [travis-image]: https://img.shields.io/travis/macaca-sample/antd-sample.svg?style=flat-square
 [travis-url]: https://travis-ci.org/macaca-sample/antd-sample
 
+- [ant-design](//github.com/ant-design/antd-mobile-samples/)
 - [torchjs](//github.com/macacajs/torchjs)
 
 ## License
