@@ -23,7 +23,7 @@ describe('test/file1.test.js', function() {
     document.body.removeChild(document.getElementById(containerId));
   });
 
-  describe('antd mobile components1', function() {
+  describe('antd mobile components11', function() {
 
     beforeEach(function() {
       document.getElementById(containerId).innerHTML = '';
@@ -31,15 +31,16 @@ describe('test/file1.test.js', function() {
 
     afterEach(function(done) {
       const that = this;
-      const filepath = `${cwd}/screenshots/${that.currentTest.title}.png`;
-      const reportspath = path.join(__dirname, '..', 'reports');
+      console.log(cwd)
+      const filepath = path.join(cwd, 'screenshots', `${that.currentTest.title}.png`)
+      const reportspath = path.join(cwd, 'reports');
       setTimeout(() => {
         Macaca.screenshot({
-          directory: reportspath,
+          directory: filepath,
           height: 600,
           width: 375
         }, (e) => {
-          appendToContext(that, `${path.relative(reportspath, filepath)}`);
+          appendToContext(that, filepath);
           done();
         });
       }, 1500);
@@ -54,23 +55,19 @@ describe('test/file1.test.js', function() {
     });
   });
 
-  describe('antd mobile components2', function() {
-
-    beforeEach(function() {
-      document.getElementById(containerId).innerHTML = '';
-    });
+  describe('antd mobile components22', function() {
 
     afterEach(function(done) {
       const that = this;
-      const filepath = `${cwd}/screenshots/${that.currentTest.title}.png`;
-      const reportspath = path.join(__dirname, '..', 'reports');
+      const filepath = path.join(cwd, 'screenshots', `${that.currentTest.title}.png`)
+      const reportspath = path.join(cwd, 'reports');
       setTimeout(() => {
         Macaca.screenshot({
-          directory: reportspath,
+          directory: filepath,
           height: 600,
           width: 375
         }, (e) => {
-          appendToContext(that, `${path.relative(reportspath, filepath)}`);
+          appendToContext(that, filepath);
           done();
         });
       }, 1500);
