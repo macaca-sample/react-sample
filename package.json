@@ -1,0 +1,22 @@
+{
+  "name": "antd-sample",
+  "version": "1.0.0",
+  "description": "Macaca sample for antd",
+  "keywords": [
+    "torchjs",
+    "macaca",
+    "sample",
+    "automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/macaca-sample/antd-sample.git"
+  },
+  "devDependencies": {
+    "detect-port": "^1.1.4",
+    "macaca-cli": "*",
+    "should": "^11.1.2",
+    "webdriver-keycode": "^1.0.2"
+  },
+  "license": "MIT"
+}
