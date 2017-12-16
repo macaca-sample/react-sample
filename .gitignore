@@ -3,10 +3,5 @@ node_modules
 npm-debug.log
 .idea/*
 Thumbs.db
-coverage/
-.project
-build/
 *.sw*
 *.un~
-dist/
-test/dist/
