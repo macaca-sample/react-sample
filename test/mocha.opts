@@ -1,8 +1,0 @@
---reporter spec
---preload https://as.alipayobjects.com/g/component/??react/15.3.2/react.min.js
---preload https://as.alipayobjects.com/g/component/??react/15.3.2/react-dom.min.js
---preload ./test/dist/test-helper.css
---preload ./test/dist/shared.js
---preload ./test/dist/test-helper.js
---preload https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js
-
