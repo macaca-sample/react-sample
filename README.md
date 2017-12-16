@@ -4,7 +4,7 @@
 
 ## Sample List
 
-- [autoresponsive-react](//github.com/xudafeng/autoresponsive-react)
+- [autoresponsive-react component testing](//github.com/xudafeng/autoresponsive-react)
 
 ## License
 
